@@ -1,2 +1,2 @@
 #!/bin/basha
-gcc -E $CFILE -o c
+gcc -E $CFILE >> c
