@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Main - maib block
+ * main - main block
  * Description: prints the last digit of a number if its greater
- * than 5, zero or 6
- * return: 0
+ * than 5, zero,6
+ * Return: 0
  */
 int main(void)
 {
