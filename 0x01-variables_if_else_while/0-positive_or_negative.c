@@ -4,7 +4,9 @@
 /* more headers goes there */
 /*
  * main - main block
- * betty style doc for function main goes there
+ * description: get a random number and print it
+ * if it is positive , negative or zero
+ * return: 0
  *
  */
 int main(void)
