@@ -1,13 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/*
+/**
  * main - main block
- * description: get a random number and print it
- * if it is positive , negative or zero
- * return: 0
- *
+ * Description: prints either negative positive or zero
+ * Return: 0
  */
 int main(void)
 {
