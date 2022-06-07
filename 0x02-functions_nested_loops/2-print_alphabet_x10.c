@@ -2,6 +2,7 @@
 #include <unistd.h>
 /**
  * main - main block
+ * print_alphabet_x10 - print alphabet
  * Description: prints alphabet 10x
  * Return: 0
  */
