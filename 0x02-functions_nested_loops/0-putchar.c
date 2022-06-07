@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * description
- * main -main block
+ * main - main block
+ * Description: this code prints putchar
+ * Return: 0
+ * 
  */
 int main(void)
 {
