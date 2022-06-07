@@ -2,8 +2,7 @@
 /**
  * main - main block
  * Description: this code prints putchar
- * Return: 0
- * 
+ * Return: 0 
  */
 int main(void)
 {
