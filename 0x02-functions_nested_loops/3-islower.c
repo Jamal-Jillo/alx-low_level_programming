@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <ctype.h>
 /**
- * islower - islower
+ * _islower - islower
  * Description: finds lower case
  * Return: 0
  */
