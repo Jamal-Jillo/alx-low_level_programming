@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int a = 0, b = 1, next = 0, i = 1;
+	unsigned long int a = 0, b = 1, next = 0;
+	int i = 0;
 
 	while ( i < 98)
 	{
