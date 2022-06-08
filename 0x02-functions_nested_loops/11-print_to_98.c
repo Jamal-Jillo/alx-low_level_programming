@@ -15,7 +15,7 @@ void print_to_98(int n)
 {
 	while (n > 0 && n <= 98)
 	{
-		printf("i%, " n);
+		_putchar(n);
 		n++;
 	}
 
