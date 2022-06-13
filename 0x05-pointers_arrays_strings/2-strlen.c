@@ -8,6 +8,6 @@
  */
 int _strlen(char *s)
 {
-	printf("length of a string: %ld", strlen(s));
-	return (0);
+	printf("%ld", strlen(s));
+	return ;
 }
