@@ -12,11 +12,6 @@ void randomPasswordGeneration(int N)
 
 	int randomizer = 0;
 
-	/*Seed the random-number generator
-	with current time so that the
-	numbers will be different every time*/
-	srand((unsigned int)(time(NULL)));
-
 	/*Array of numbers*/
 	char numbers[] = "0123456789";
 
@@ -31,6 +26,11 @@ void randomPasswordGeneration(int N)
 
 	/*Stores the random password*/
 	char password[N];
+	
+	/*Seed the random-number generator
+	with current time so that the
+	numbers will be different every time*/
+	srand((unsigned int)(time(NULL)));
 
 	/* To select the randomizer
 	 inside the loop*/
