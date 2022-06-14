@@ -25,7 +25,7 @@ void randomPasswordGeneration(int N)
 	char symbols[] = "!@#$^&*?";
 
 	/*Stores the random password*/
-	char password[N];
+	char password[20];
 	
 	/*Seed the random-number generator
 	with current time so that the
@@ -37,7 +37,7 @@ void randomPasswordGeneration(int N)
 	randomizer = rand() % 4;
 
 	/*Iterate over the range [0, N]*/
-	for (i = 0; i < N; i++) {
+	for (i = 0; i < 20; i++) {
 
 		if (randomizer == 1) {
 			password[i] = numbers[rand() % 10];
@@ -60,15 +60,4 @@ void randomPasswordGeneration(int N)
 			printf("%c", password[i]);
 		}
 	}
-}
-
-int main()
-{
-	/*Length of the password to
-	be generated*/
-	int N = 10;
-
-	randomPasswordGeneration(N);
-
-	return 0;
 }
