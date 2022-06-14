@@ -5,7 +5,7 @@
 
 /*Function to randomly generates password
 of length N*/
-void randomPasswordGeneration(int N)
+void randomPasswordGeneration(int 20)
 {
 	/*Initialize counter*/
 	int i = 0;
