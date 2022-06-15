@@ -3,7 +3,7 @@
 /**
  * char *_strcat : this function concatenates two strings
  * @dest - pointer
- * @src - pointer 
+ * @src - pointer
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
