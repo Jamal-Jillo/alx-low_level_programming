@@ -1,2 +1,3 @@
 # alx-low_level_programming
-c language
+This is my first c language code.
+
