@@ -1,4 +1,4 @@
-#include "main.h"
+include "holberton.h"
 
 /**
  * *cap_string - capitalize words
