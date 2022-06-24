@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 /* iterate through the coins array checking size */
-	for (i = 0; 1 < 5; i++)
+	for (i = 0; i < 5; i++)
 	{
 		while (cents >= coins[i])
 		{
