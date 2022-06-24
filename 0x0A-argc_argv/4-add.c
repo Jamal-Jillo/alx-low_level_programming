@@ -1,32 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
- * main - function that adds positive numbers
+ * is_number - function that checks if string is a number
+ * @str: str pointer
+ * Return: 0 or 1
+ */
+int is_number(char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		if (str[i] < '0' || str[i] > '9')
+		{
+			return (1);
+		}
+	}
+	return (0);
+}
+/**
+ * main - function that adds two positive numbers
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
-	int i;
 	int sum = 0;
 
-	for (i = 1; i < argc; i++)
+	while (--argc)
 	{
-		if (argv[i] < '0' || argv[i] > '9')
+		if (is_number(argv[argc]))
 		{
 			printf("Error\n");
 			return (1);
 		}
-		int num = atoi(argv[i]);
-
-		if (num < 0)
-		{
-			printf("Error\n");
-			return (1);
-		}
-		sum += num;
-	} 
+		sum += atoi(argv[argc]);
+	}
 	printf("%d\n", sum);
 	return (0);
 }
+
