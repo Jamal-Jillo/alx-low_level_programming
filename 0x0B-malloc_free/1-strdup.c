@@ -8,7 +8,7 @@
  * @str: string pointer
  * Return: NULL
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i = 0;
 	int size = 0;
