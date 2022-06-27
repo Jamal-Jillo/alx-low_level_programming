@@ -25,7 +25,6 @@ char *str_concat(char *s1, char *s2)
 {
 	int size1, size2, i;
 	char *m;
-	int total = 0;
 
 	if (s1 == NULL)
 		s1 = "\0";
