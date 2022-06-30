@@ -2,6 +2,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * _strlen - find length of a string
+ * @s: string
+ * Return: int
+ */
+unsigned int _strlen(char *s)
+{
+	unsigned int size = 0;
+
+	for (; s[size] != '\0'; size++)
+	;
+	return (size);
+}
+/**
  * string_nconcat - concatenates two strings
  * @s1: string 1
  * @s2: string 2
@@ -32,17 +45,4 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		m[i] = s2[j];
 	m[i] = '\0';
 	return (m);
-}
-/**
- * _strlen - find length of a string
- * @s: string
- * Return: int
- */
-unsigned int _strlen(char *s)
-{
-	unsigned int size = 0;
-
-	for (; s[size] != '\0'; size++)
-	;
-	return (size);
 }
