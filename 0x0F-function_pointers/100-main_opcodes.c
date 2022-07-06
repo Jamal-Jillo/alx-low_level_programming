@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * @main - a function that prints the opcodes of the main function
+ * main - a function that prints the opcodes of the main function
  * @argc: the number of arguments passed to the program
  * @argv: the array of arguments passed to the program
  * Return: 0 on success
@@ -17,7 +17,6 @@ int main(int argc, char *argv[])
 		exit(1);
 	}
 	bytes = atoi(argv[1]);
-	
 	if (bytes < 0)
 	{
 		printf("Error\n");
@@ -27,7 +26,7 @@ int main(int argc, char *argv[])
 
 	for (i = 0; i < bytes; i++)
 	{
-		if (i == bytes -1)
+		if (i == bytes - 1)
 		{
 			printf("%02hhx\n", opcodes[i]);
 			break;
