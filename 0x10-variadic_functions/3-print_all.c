@@ -60,7 +60,7 @@ void print_all(const char * const format, ...)
 		if (printType[j].type != NULL)
 		{
 			printf("%s", sep);
-			printType[j].f(list);
+			printType[j].printer(list);
 			sep = ", ";
 		}
 		i++;
