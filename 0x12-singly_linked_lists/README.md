@@ -1,0 +1,1 @@
+this is a new alx project about linked lists.
