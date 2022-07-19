@@ -4,7 +4,6 @@
 /**
  * sum_listint - sums the elements of a linked list
  * @head: pointer to the first node of the list
- * 
  * Return: sum of the elements of the list
  */
 int sum_listint(listint_t *head)
