@@ -1,5 +1,5 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef HEADER_H
+#define HEADER_H
 
 #include <stdlib.h>
 
